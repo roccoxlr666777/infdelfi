@@ -2,9 +2,9 @@
 # ARCHIVO: datos_cff.py
 # BASE DE DATOS MAESTRA: INFRACCIONES Y MULTAS DEL CFF
 # ====================================================================
+
 # --------------------------------------------------------------------
 # BLOQUE 1: REGISTRO FEDERAL DE CONTRIBUYENTES (ART. 79 Y 80)
-# Exhaustividad: 100% (Fracciones I a X)
 # --------------------------------------------------------------------
 infracciones_79_80 = [
     {
@@ -51,7 +51,7 @@ infracciones_79_80 = [
     },
     {
         "fraccion": "Fracción VIII",
-        "infraccion": "No asentar o asentar incorrectamente en las escrituras públicas en que hagan constar actas constitutivas y demás actas de asamblea de personas morales cuyos socios o accionistas deban solicitar su inscripción en el registro federal de contribuyentes, la clave correspondiente a cada socio o accionista... cuando los socios concurran.",
+        "infraccion": "No asentar o asentar incorrectamente en las escrituras públicas en que hagan constar actas constitutivas y demás actas de asamblea de personas morales cuyos socios o accionistas deban solicitar su inscripción en el registro federal de contribuyentes... cuando los socios concurran.",
         "multa": "Art. 80, Fracción VI: De $21,560.00 a $43,140.00.",
         "ejemplo": "Durante una asamblea extraordinaria con todos los socios presentes, el Corredor Público no asienta el RFC de dos de ellos en la póliza respectiva."
     },
@@ -69,7 +69,6 @@ infracciones_79_80 = [
     }
 ]
 
-# Quiz exhaustivo Artículos 79 y 80
 quiz_79_80 = [
     {
         "pregunta": "1. Un Notario autoriza la fusión de dos empresas sin cumplir lo dispuesto por el artículo 27 del CFF. ¿Cuál es la multa exacta aplicable según el Art. 80, Fracción IV?",
@@ -118,10 +117,13 @@ quiz_79_80 = [
     },
     {
         "pregunta": "10. Una persona física recibe ingresos por arrendamiento pero no solicita su inscripción al RFC, violando la Fracción I del Artículo 79. Su multa será de:",
-        "opciones": ["De $5,070.00 a $15,200.00", "De $5,400.00 a $10,780.00", "De $1,800.00 a $3,600.00", "De $1,310
+        "opciones": ["De $5,070.00 a $15,200.00", "De $5,400.00 a $10,780.00", "De $1,800.00 a $3,600.00", "De $1,310.00 a $3,010.00"],
+        "respuesta": "De $5,070.00 a $15,200.00"
+    }
+]
+
 # --------------------------------------------------------------------
 # BLOQUE 2: DECLARACIONES, AVISOS Y REPORTES (ART. 81 Y 82)
-# Exhaustividad: 100% (Fracciones I a XLVI, incluyendo derogadas)
 # --------------------------------------------------------------------
 infracciones_81_82 = [
     {
@@ -365,7 +367,7 @@ infracciones_81_82 = [
         "ejemplo": "Emitir una factura por 1 millón de pesos por error a un cliente y nunca realizar el proceso de cancelación en el SAT."
     }
 ]
-# Quiz exhaustivo Artículos 81 y 82
+
 quiz_81_82 = [
     {
         "pregunta": "1. Una donataria autorizada destina parte de su patrimonio a fines personales de los socios, violando la Fracción XXXIX del Art. 81. ¿Cuál es su multa según el Art. 82?",
@@ -416,5 +418,184 @@ quiz_81_82 = [
         "pregunta": "10. Se presenta un aviso fuera del plazo requerido (ej. cambio de domicilio), actualizando la Fracción VI del Art. 81. La multa aplicable es de:",
         "opciones": ["De $5,070.00 a $15,200.00", "De $1,260.00 a $12,790.00", "De $17,410.00 a $34,870.00", "De $25,360.00 a $50,710.00"],
         "respuesta": "De $5,070.00 a $15,200.00"
+    }
+]
+
+# --------------------------------------------------------------------
+# BLOQUE 3: CONTABILIDAD Y CFDI (ART. 83 Y 84)
+# --------------------------------------------------------------------
+infracciones_83_84 = [
+    {
+        "fraccion": "Fracción I",
+        "infraccion": "No llevar contabilidad.",
+        "multa": "Art. 84, Fracc. I: De $2,220.00 a $22,110.00.",
+        "ejemplo": "El dueño de una proveedora de insumos comerciales decide simplemente no registrar sus ingresos ni egresos en ningún sistema, operando al margen de las obligaciones fiscales."
+    },
+    {
+        "fraccion": "Fracción II",
+        "infraccion": "No llevar algún libro o registro especial a que obliguen las leyes fiscales; no cumplir con las obligaciones sobre valuación de inventarios o no llevar el procedimiento de control de los mismos.",
+        "multa": "Art. 84, Fracc. II: De $490.00 a $11,050.00.",
+        "ejemplo": "Una comercializadora textil no implementa el sistema de control de inventarios requerido, imposibilitando verificar las entradas y salidas de mercancía."
+    },
+    {
+        "fraccion": "Fracción III",
+        "infraccion": "Llevar la contabilidad en forma distinta a como las disposiciones de este Código o de otras leyes señalan; llevarla en lugares distintos a los señalados en dichas disposiciones.",
+        "multa": "Art. 84, Fracc. II: De $490.00 a $11,050.00.",
+        "ejemplo": "Una empresa guarda sus servidores contables y la documentación soporte en una bodega en otro estado, mientras que su domicilio fiscal registrado y autorizado está en Puebla."
+    },
+    {
+        "fraccion": "Fracción IV",
+        "infraccion": "No hacer los asientos correspondientes a las operaciones efectuadas; hacerlos incompletos, inexactos, con identificación incorrecta de su objeto o fuera de los plazos respectivos, así como registrar gastos inexistentes.",
+        "multa": "Art. 84, Fracc. III: De $290.00 a $5,330.00. Por registrar gastos inexistentes: de un 55% a un 75% del monto de cada registro de gasto inexistente.",
+        "ejemplo": "Un contador registra la compra de equipo de cómputo en la póliza contable con un valor alterado superior al real, simulando un gasto que nunca ocurrió para disminuir la base gravable."
+    },
+    {
+        "fraccion": "Fracción V",
+        "infraccion": "(Se deroga).",
+        "multa": "N/A",
+        "ejemplo": "Disposición derogada por el legislador."
+    },
+    {
+        "fraccion": "Fracción VI",
+        "infraccion": "No conservar la contabilidad a disposición de las autoridades por el plazo que establezcan las disposiciones fiscales.",
+        "multa": "Art. 84, Fracc. V: De $1,350.00 a $17,660.00.",
+        "ejemplo": "Al recibir una auditoría del ejercicio de hace tres años, el contribuyente argumenta que ya destruyó las carpetas con las facturas y pólizas de ese periodo."
+    },
+    {
+        "fraccion": "Fracción VII",
+        "infraccion": "No expedir, no entregar o no poner a disposición de los clientes los comprobantes fiscales digitales por Internet... no entregar la representación impresa... no amparar operaciones con público en general.",
+        "multa": "Art. 84, Fracc. IV:\na) General: $22,300.00 a $127,530.00 (Reincidencia: Clausura 3 a 15 días).\nb) Régimen específico: $1,910.00 a $3,800.00.\nc) Donatarias: $19,050.00 a $108,870.00 (Reincidencia: revocación).\nd) Sin complementos: $450.00 a $670.00 por CFDI.",
+        "ejemplo": "Un arrendador de locales comerciales se niega a entregar la factura correspondiente al pago de la renta mensual de uno de sus inquilinos."
+    },
+    {
+        "fraccion": "Fracción VIII",
+        "infraccion": "(Se deroga).",
+        "multa": "N/A",
+        "ejemplo": "Disposición derogada por el legislador."
+    },
+    {
+        "fraccion": "Fracción IX",
+        "infraccion": "Expedir comprobantes fiscales digitales por Internet asentando la clave del RFC de persona distinta... o condicionando su emisión a la exhibición de la Cédula de Identificación Fiscal o Constancia de Situación Fiscal.",
+        "multa": "Art. 84, Fracc. VI: De $21,420.00 a $122,440.00. (Reincidencia: Clausura 3 a 15 días).",
+        "ejemplo": "Un restaurante le dice a un comensal que, por políticas internas, si no trae impresa su Constancia de Situación Fiscal, no pueden emitirle su factura por el consumo."
+    },
+    {
+        "fraccion": "Fracción X",
+        "infraccion": "No dictaminar sus estados financieros cuando esté obligado o hubiera optado por hacerlo. No presentar dicho dictamen dentro del término previsto.",
+        "multa": "Art. 84, Fracc. IX: De $17,330.00 a $173,230.00.",
+        "ejemplo": "Una gran empresa obligada a dictaminar sus estados financieros por un contador público inscrito deja vencer el plazo legal en mayo sin presentar el documento ante las autoridades."
+    },
+    {
+        "fraccion": "Fracción XI",
+        "infraccion": "Expedir comprobantes fiscales digitales por Internet que señalen corresponder a donativos deducibles sin contar con la autorización para recibir donativos deducibles.",
+        "multa": "Art. 84, Fracc. X: De tres a cinco veces el monto o valor señalado en el CFDI que ampare el donativo.",
+        "ejemplo": "Una asociación civil sin fines de lucro emite recibos de donativos deducibles de ISR, a pesar de que el SAT le revocó dicha autorización el año pasado."
+    },
+    {
+        "fraccion": "Fracción XII",
+        "infraccion": "No expedir o acompañar la documentación que ampare mercancías en transporte en territorio nacional.",
+        "multa": "Art. 84, Fracc. XI: De $1,000.00 a $19,280.00.",
+        "ejemplo": "Un camión de carga traslada un lote de computadoras, pero el chofer no cuenta con el CFDI con complemento Carta Porte."
+    },
+    {
+        "fraccion": "Fracción XIII",
+        "infraccion": "No tener en operación o no registrar el valor de los actos o actividades con el público en general en las máquinas registradoras de comprobación fiscal...",
+        "multa": "Art. 84, Fracc. VIII: De $10,140.00 a $50,710.00.",
+        "ejemplo": "Una tienda de abarrotes desconecta su equipo de registro fiscal autorizado para no contabilizar las ventas en efectivo que realiza durante el fin de semana."
+    },
+    {
+        "fraccion": "Fracción XIV",
+        "infraccion": "(Se deroga).",
+        "multa": "N/A",
+        "ejemplo": "Disposición derogada por el legislador."
+    },
+    {
+        "fraccion": "Fracción XV",
+        "infraccion": "No identificar en la contabilidad las operaciones con partes relacionadas (Art. 76, fracc IX y 110 fracc XI LISR).",
+        "multa": "Art. 84, Fracc. XIII: De $2,560.00 a $7,680.00 por cada operación no identificada.",
+        "ejemplo": "Una empresa le vende materia prima a una empresa filial, pero en la contabilidad registra la operación como una venta a un tercero independiente, sin identificar el vínculo."
+    },
+    {
+        "fraccion": "Fracción XVI",
+        "infraccion": "(Se deroga).",
+        "multa": "N/A",
+        "ejemplo": "Disposición derogada por el legislador."
+    },
+    {
+        "fraccion": "Fracción XVII",
+        "infraccion": "No presentar o presentar de manera incompleta o con errores la información sobre su situación fiscal a que se refiere el artículo 32-H de este Código.",
+        "multa": "Art. 84, Fracc. XV: De $17,330.00 a $173,230.00.",
+        "ejemplo": "Un contribuyente considerado Gran Contribuyente omite presentar su declaración informativa sobre su situación fiscal (DISIF)."
+    },
+    {
+        "fraccion": "Fracción XVIII",
+        "infraccion": "Utilizar para efectos fiscales comprobantes expedidos por un tercero que no desvirtuó la presunción de operaciones inexistentes (listado 69-B), sin demostrar materialización.",
+        "multa": "Art. 84, Fracc. XVI: De un 55% a un 75% del importe de cada comprobante fiscal.",
+        "ejemplo": "Una constructora deduce facturas de un proveedor que el SAT publicó en la lista negra definitiva (EFOS), y la constructora no logra probar que el servicio realmente se prestó."
+    },
+    {
+        "fraccion": "Fracción XIX",
+        "infraccion": "Utilizar para efectos fiscales comprobantes expedidos por un tercero, cuando las autoridades determinen que amparan operaciones inexistentes o simuladas.",
+        "multa": "Art. 84, Fracc. XVI: De un 55% a un 75% del importe de cada comprobante fiscal.",
+        "ejemplo": "Durante una auditoría, el SAT detecta que el contribuyente compró facturas para simular la adquisición de papelería corporativa."
+    },
+    {
+        "fraccion": "Agravante Especial",
+        "infraccion": "Condena por sentencia firme por delitos de cohecho (Art. 222 y 222 Bis CP Federal) relacionados con las fracciones I, II, IV, XVIII y XIX.",
+        "multa": "Último párrafo Art. 84: Aumento del 100% al 150% del valor de las dádivas.",
+        "ejemplo": "Un empresario no lleva contabilidad y, además de la multa fiscal, un juez penal determina que sobornó a un funcionario."
+    }
+]
+
+quiz_83_84 = [
+    {
+        "pregunta": "1. Una papelería se niega a expedir facturas argumentando que su sistema está caído. Según el Art. 84, Fracción IV, inciso a), ¿cuál es la multa general que le corresponde?",
+        "opciones": ["De $22,300.00 a $127,530.00", "De $450.00 a $670.00", "De $1,350.00 a $17,660.00", "De $19,050.00 a $108,870.00"],
+        "respuesta": "De $22,300.00 a $127,530.00"
+    },
+    {
+        "pregunta": "2. Una tienda departamental le exige a sus clientes presentar su Constancia de Situación Fiscal impresa; de lo contrario, no les emiten el CFDI (Fracc. IX). ¿Cuál es la sanción aplicable en una primera infracción?",
+        "opciones": ["De $17,330.00 a $173,230.00", "De $2,220.00 a $22,110.00", "De $21,420.00 a $122,440.00", "De un 55% a un 75% del CFDI"],
+        "respuesta": "De $21,420.00 a $122,440.00"
+    },
+    {
+        "pregunta": "3. Un transportista mueve bienes a través de carreteras federales sin portar el CFDI con complemento Carta Porte. ¿Qué multa corresponde a esta infracción de la Fracción XII?",
+        "opciones": ["De $10,140.00 a $50,710.00", "De $1,000.00 a $19,280.00", "De $490.00 a $11,050.00", "De $2,560.00 a $7,680.00"],
+        "respuesta": "De $1,000.00 a $19,280.00"
+    },
+    {
+        "pregunta": "4. Una sociedad mercantil registra intencionalmente gastos por honorarios que jamás existieron para evadir impuestos (Fracc. IV). ¿Cuál es la sanción específica para este supuesto?",
+        "opciones": ["De $290.00 a $5,330.00", "Clausura del establecimiento de 3 a 15 días", "De un 55% a un 75% del monto de cada registro inexistente", "De $17,330.00 a $173,230.00"],
+        "respuesta": "De un 55% a un 75% del monto de cada registro inexistente"
+    },
+    {
+        "pregunta": "5. ¿Cuál de las siguientes fracciones del Artículo 83 referentes a la contabilidad se encuentra actualmente derogada?",
+        "opciones": ["Fracción I", "Fracción XIV", "Fracción IX", "Fracción XVII"],
+        "respuesta": "Fracción XIV"
+    },
+    {
+        "pregunta": "6. Una persona moral expide un comprobante fiscal indicando que es un donativo deducible, pero no tiene la autorización vigente del SAT. ¿Cómo se cuantifica su multa (Fracc. XI)?",
+        "opciones": ["De $19,050.00 a $108,870.00", "Revocación definitiva de la autorización", "De tres a cinco veces el monto o valor señalado en el CFDI", "De $21,420.00 a $122,440.00"],
+        "respuesta": "De tres a cinco veces el monto o valor señalado en el CFDI"
+    },
+    {
+        "pregunta": "7. Un contribuyente EDOS (Empresa que Deduce Operaciones Simuladas) utiliza comprobantes de un EFOS publicado en el artículo 69-B del CFF y no demuestra la materialización del servicio. ¿Cuál es la multa (Fracc. XVIII)?",
+        "opciones": ["De $17,330.00 a $173,230.00", "Aumento del 100% al 150%", "De un 55% a un 75% del importe de cada comprobante", "De $22,300.00 a $127,530.00"],
+        "respuesta": "De un 55% a un 75% del importe de cada comprobante"
+    },
+    {
+        "pregunta": "8. Una donataria autorizada omite entregar la representación impresa del comprobante fiscal a un donante. Según el Art. 84, Fracc. IV, inciso c), ¿cuál es el rango de la multa?",
+        "opciones": ["De $22,300.00 a $127,530.00", "De $19,050.00 a $108,870.00", "De $1,910.00 a $3,800.00", "De $450.00 a $670.00"],
+        "respuesta": "De $19,050.00 a $108,870.00"
+    },
+    {
+        "pregunta": "9. Un contribuyente es descubierto no llevando contabilidad alguna (Fracc. I). Adicionalmente, cuenta con sentencia firme por el delito de cohecho. ¿Qué agravante se aplica según el último párrafo del Art. 84?",
+        "opciones": ["Multa se aumenta en un monto del 100% al 150% del valor de las dádivas", "Cárcel de 3 a 5 años", "Clausura preventiva inmediata", "El triple de las contribuciones omitidas"],
+        "respuesta": "Multa se aumenta en un monto del 100% al 150% del valor de las dádivas"
+    },
+    {
+        "pregunta": "10. Una empresa desecha sus registros contables al año siguiente de generarlos. Al ser requeridos, no puede conservar la contabilidad a disposición de las autoridades (Fracc. VI). ¿Cuál es la multa?",
+        "opciones": ["De $490.00 a $11,050.00", "De $2,220.00 a $22,110.00", "De $1,350.00 a $17,660.00", "De $10,140.00 a $50,710.00"],
+        "respuesta": "De $1,350.00 a $17,660.00"
     }
 ]

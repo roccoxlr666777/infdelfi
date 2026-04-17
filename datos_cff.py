@@ -366,7 +366,6 @@ infracciones_81_82 = [
         "ejemplo": "Emitir una factura por 1 millón de pesos por error a un cliente y nunca realizar el proceso de cancelación en el SAT."
     }
 ]
-
 # Quiz exhaustivo Artículos 81 y 82
 quiz_81_82 = [
     {

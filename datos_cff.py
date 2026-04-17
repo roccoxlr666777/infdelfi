@@ -2,7 +2,6 @@
 # ARCHIVO: datos_cff.py
 # BASE DE DATOS MAESTRA: INFRACCIONES Y MULTAS DEL CFF
 # ====================================================================
-
 # --------------------------------------------------------------------
 # BLOQUE 1: REGISTRO FEDERAL DE CONTRIBUYENTES (ART. 79 Y 80)
 # Exhaustividad: 100% (Fracciones I a X)
